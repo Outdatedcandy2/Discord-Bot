@@ -10,7 +10,7 @@ from cryptography.fernet import Fernet
 
 
 
-TOKEN = 'MTAyODM3Njc2Mzg1Nzg5NTYzNQ.GHlR6K.Q4oWaHr2z2ePgP0UMpYl2wWD6SBWp0TAIh0rZk' #Your Discord Bot Token
+TOKEN = 'MTAyODM3Njc2Mzg1Nzg5NTYzNQ.Ggh6km.qjGC0XFbP3lJaRxLbtnCnnlni5w56X9QF1A9So' #Your Discord Bot Token
 CHANNEL = 1028375314742640724 #ID Of The Channel In Which You Want to Send Messages
 
 
