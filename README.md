@@ -50,17 +50,17 @@ CHANNEL = Replace With Your Desired Channel ID
 ## Usage/Examples
 - Here is the list of commands
 ```javascript
-$Hello - Bot Replies Back Saying HI
--
-$message - Dm's The User 
--
-$encrypt - Encryptes The Message That The User Gives And Dm's The Encrypted Text
--
-$decrypt - Decryptes The Message That The User Gives And Dm's The Decrypted Text
--
-$genpass - Generates A 12 Digit Randomly Generator Password
--
-$clear - Purges The Chat
+$Hello - Bot Replies Back Saying HI.
+
+$message - Dms The User 
+
+$encrypt - Encryptes The Message That The User Gives And Dms The Encrypted Text.
+
+$decrypt - Decryptes The Message That The User Gives And Dms The Decrypted Text.
+
+$genpass - Generates A 12 Digit Randomly Generator Password.
+
+$clear - Purges The Chat.
 ```
 
 

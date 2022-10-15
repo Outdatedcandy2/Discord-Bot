@@ -10,7 +10,7 @@ from cryptography.fernet import Fernet
 
 
 
-TOKEN = 'MTAyODM3Njc2Mzg1Nzg5NTYzNQ.Ggh6km.qjGC0XFbP3lJaRxLbtnCnnlni5w56X9QF1A9So' #Your Discord Bot Token
+TOKEN = 'MTAyODM3Njc2Mzg1Nzg5NTYzNQ.GnYJbk.P5bkuoskmTcdH-t2MKOkR9DuvCm9Nb19OxAzY8' #Your Discord Bot Token
 CHANNEL = 1028375314742640724 #ID Of The Channel In Which You Want to Send Messages
 
 
@@ -72,9 +72,9 @@ async def genpass(ctx):
             description=password
         )
 
-        await ctx.send(embed=embed)
-        await ctx.send("DELETING IN 60 SECONDS")
-        time.sleep(60)
+        await ctx.author.send(embed=embed)
+        await ctx.author.send("DELETING IN 20 SECONDS")
+        time.sleep(20)
         await ctx.channel.purge(limit=2)
 
 @bot.command(aliases=['purge'])
